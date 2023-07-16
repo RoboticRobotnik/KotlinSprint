@@ -8,5 +8,5 @@ fun main(){
     val chasKosmos = minutKosmos / 60
     val ostatokChasKosmos = minutKosmos % 60
 
-    print(String.format("%02d:%02d:%02d",chasKosmos,ostatokChasKosmos,ostatokSecundKosmos))
+    print(String.format("%02d:%02d:%02d", chasKosmos, ostatokChasKosmos, ostatokSecundKosmos))
 }
