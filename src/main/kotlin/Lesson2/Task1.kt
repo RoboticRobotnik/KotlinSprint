@@ -6,7 +6,7 @@ fun main(){
     val ocenkaStudent3 = 3
     val ocenkaStudent4 = 5
 
-    val sredniiBal = (ocenkaStudent1+ocenkaStudent2+ocenkaStudent3+ocenkaStudent4)/4.toFloat()
+    val sredniiBal = (ocenkaStudent1 + ocenkaStudent2 + ocenkaStudent3 + ocenkaStudent4) / 4.toFloat()
 
     print(sredniiBal)
 }
