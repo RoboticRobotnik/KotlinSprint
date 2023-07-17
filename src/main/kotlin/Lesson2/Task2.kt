@@ -1,7 +1,6 @@
 package Lesson2
 
-
-    fun main(){
+    fun main() {
         val chisloRabotnik = 50
         val zpRabotnik = 30000
         val chisloStager = 30
