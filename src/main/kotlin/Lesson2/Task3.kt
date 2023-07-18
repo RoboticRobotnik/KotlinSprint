@@ -1,12 +1,15 @@
 package Lesson2
 
+import java.time.LocalTime
+
 fun main(){
-    val vremiaViezda = 9 * 60 + 39
+    val razriadVremeni = 60
+    val vremiaViezda = 9 * razriadVremeni + 39
     val vremiaVputi = 457
 
-    val chasPribitia = (vremiaViezda + vremiaVputi) / 60
-    val minutaPribitia = (vremiaViezda + vremiaVputi) % 60
+    val chasPribitia = (vremiaViezda + vremiaVputi) / razriadVremeni
+    val minutaPribitia = (vremiaViezda + vremiaVputi) % razriadVremeni
 
-    println("$chasPribitia:$minutaPribitia")
+    println(LocalTime.of(chasPribitia, minutaPribitia))
 
 }
